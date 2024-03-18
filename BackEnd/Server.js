@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 // mongoDB connection string
-const mongoURI = 'mongodb://127.0.0.1:27017/socialMediaApp';
+const mongoURI = 'mongodb://localhost:27017/socialMediaApp';
 mongoose.connect(mongoURI);
 
 // User model
